@@ -24,7 +24,7 @@ void main() {
   } else if (trafficLight == 'green') {
     command = 'Go';
   } else {
-    command = "invalid color";
+    command = "invalid ";
   }
   print(command);
 }
