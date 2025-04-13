@@ -7,7 +7,7 @@ void main() {
   //print(isOneGreaterThanTwo);
   const isSunny = true;
   const isFinished = true;
-  const willGoCycling = isSunny && isFinished;
+  final willGoCycling = isSunny && isFinished;
   //print(willGoCycling);
   const willTravelToAustralia = true;
   const canFindPhoto = true;
