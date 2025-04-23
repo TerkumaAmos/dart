@@ -131,10 +131,57 @@
 //   print("Greeting:$greeting");
 //   greetings();
 // }
-void className() {
-  print("My name is Agber TErkuma Amos");
+// void className() {
+//   print("My name is Agber TErkuma Amos");
+// }
+
+// void main() {
+//   className();
+// }
+
+//Functions in dart (){Dart Apprentice for further knowledge}
+// A function is a one small task, or sometimes a collection of several smaller, related tasks that you can use in conjunction with other functions to accomplish a larger task.
+
+// void main() {
+//   const input = 12;
+//   final output = compliment(input);
+//   print(output);
+// }
+
+// String compliment(int number) {
+//   return '$number is a very nice number';
+// }
+
+// Multiple parameters
+// void main() {
+//   const input = "Hey";
+//   final output = helloPersonAndPet('Agber', 'Dolphin');
+// }
+
+// void helloPersonAndPet(String person, String pet) {
+//   print('Hello, $person and your fury friend, $pet!');
+// }
+// void main() {
+//   final output = myFullName('Agber', 'Terkuma', 'Amos');
+//   print(output);
+// }
+
+// String myFullName(String surname, String middleName, String lastName) {
+//   return 'my names are $surname, $middleName, $lastName';
+// }
+void main() {
+  final output = fullName(
+    'Amos',
+    'Anthony',
+    'Tech bro',
+  );
+  print(output);
 }
 
-void main() {
-  className();
+String fullName(String first, String last, [String? title]) {
+  if (title != null) {
+    return ' My name is $title $first $last';
+  } else {
+    return '$first $last';
+  }
 }
