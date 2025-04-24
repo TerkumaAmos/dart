@@ -169,19 +169,60 @@
 // String myFullName(String surname, String middleName, String lastName) {
 //   return 'my names are $surname, $middleName, $lastName';
 // }
-void main() {
-  final output = fullName(
-    'Amos',
-    'Anthony',
-    'Tech bro',
-  );
-  print(output);
-}
+// void main() {
+//   final output = fullName(
+//     'Amos',
+//     'Anthony',
+//     'Tech bro',
+//   );
+//   print(output);
+// }
 
-String fullName(String first, String last, [String? title]) {
-  if (title != null) {
-    return ' My name is $title $first $last';
-  } else {
-    return '$first $last';
-  }
-}
+// String fullName(String first, String last, [String? title]) {
+//   if (title != null) {
+//     return ' My name is $title $first $last';
+//   } else {
+//     return '$first $last';
+//   }
+// }
+// String main() {
+//   // print('hello');
+//   return 'hello';
+// }
+// String hello() {
+//   return 'Hello';
+// }
+
+// void main() {
+//   print(hello());
+// }
+
+// This function is a named parameter, Made the String required
+// // When a function is made required you have to return the values and give the name
+// String youAreWonderful({required String name, required int numberPeople}) {
+//   return "You're wonderful,$name.$numberPeople think so ";
+// }
+
+// void main() {
+//   print(youAreWonderful(name: 'Amos', numberPeople: 10));
+// }
+
+// Function multiply = (int a, int b) {
+//   return a * b;
+// };
+// void main() {
+//   print(multiply(2, 3));
+// }
+
+// F
+// Function applyMultiplier(num multiplier) {
+//   return (num value) {
+//     return value * multiplier;
+//   };
+// }
+
+// final triple = applyMultiplier(3);
+// void main() {
+//   print(triple(6));
+//   print(triple(2));
+// }
