@@ -225,20 +225,99 @@
 //   }
 // }
 
+// void main() {
+//   const weather = 'snowy';
+//   switch (weather) {
+//     case 'sunny':
+//       print('Put on sunscreen.');
+//       break;
+//     case 'snowy':
+//       print('Get your skis.');
+//       break;
+//     case 'cloudy':
+//     case 'rainy':
+//       print('Bring an umbrella.');
+//       break;
+//     default:
+//       print("I'm not familiar with that weather.");
+//   }
+// }
+
+// enum in dart
+
+// void main() {
+//   const weatherToday = Weather.slap;
+
+//   switch (weatherToday) {
+//     case Weather.sunny:
+//       print('put on sunscreen');
+//       break;
+//     case Weather.rainy:
+//     case Weather.snowy:
+//       print('Bring an Umbrella');
+//       break;
+//     case Weather.cloudy:
+//       print('Get your skies');
+//       break;
+//     case Weather.slap:
+//       print('Clouds');
+//       break;
+//   }
+//   print(weatherToday);
+//   final index = weatherToday.index;
+//   print(index);
+// }
+
+// enum Weather {
+//   sunny,
+//   snowy,
+//   cloudy,
+//   rainy,
+//   slap,
+// }
+
+// enum AudioState {
+//   playing,
+//   paused,
+//   stopped,
+// }
+
+// void main() {
+//   const audiostate = AudioState.paused;
+//   switch (audiostate) {
+//     case AudioState.playing:
+//       print('Yeah ');
+//       break;
+//     case AudioState.paused:
+//     case AudioState.stopped:
+//       print('Joeboy');
+//       break;
+//   }
+// }
+
+//Loops
+
+// While Loops
+
+// The while loops checks the condition on every iteration
+// if the condition is true then the loops executes and moves to to another iteration
+// if the condition is false then the loops stops
+
+// while (true){}
+
 void main() {
-  const weather = 'snowy';
-  switch (weather) {
-    case 'sunny':
-      print('Put on sunscreen.');
-      break;
-    case 'snowy':
-      print('Get your skis.');
-      break;
-    case 'cloudy':
-    case 'rainy':
-      print('Bring an umbrella.');
-      break;
-    default:
-      print("I'm not familiar with that weather.");
+  var sum = 1;
+  while (sum < 10) {
+    sum += 4;
+    print(sum);
   }
 }
+
+// void main() {
+//   var age = 2;
+//   while (age < 10) {
+//     age += 5;
+//     print(age);
+//   }
+// }
+
